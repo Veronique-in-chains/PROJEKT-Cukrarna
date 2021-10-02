@@ -31,5 +31,186 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #242424;
 }
 
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 52px;
+  font-style: normal;
+  line-height: 1.25;
+  padding: 0;
+  margin: 0;
+  width: 60%;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 36px;
+  line-height: 1.25;
+  font-family: 'Playfair Display', serif;
+  color: #3e606e;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  color: #3e606b;
+  font-size: 18px;
+  line-height: 1.25;
+  padding: 0;
+  margin: 0;
+}
+
+.hlavicka {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #242424;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
+.menu a:hover {
+  color: white;
+  background-color: #f195b2;
+}
+
+
+.hero {
+  background: url(images/cupcake.jpg) no-repeat left/cover;
+}
+
+.heroobsah {
+  max-width: 1100px;
+  margin: 0 auto;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.heroobsah p {
+  padding-top: 60px;
+  margin: 0;
+  width: 60%;
+}
+
+
+.uvod {
+  margin: 80px auto;
+  max-width: 1100px;
+  display: flex;
+}
+
+.levastrana {
+  width: 50%;
+  padding: 15px;
+}
+
+.pravastrana {
+  width: 50%;
+  padding: 15px;
+}
+
+.uvod img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.tlacitko {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: #f195b2;
+  border-radius: 30px;
+  padding: 15px 40px;
+  margin-top: 10px;;
+}
+
+.tlacitko:hover {
+  background-color: #d2567d;
+}
+
+
+.nabidka {
+  background-color: #f0f0f0;
+  padding: 80px 0;
+}
+
+.nabidkaobsah {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.prehledproduktu {
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.produkt {
+  background-color: white;
+  margin: 0 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px lightgray;
+}
+
+.popis {
+  padding: 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.produkt img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+
+.pribeh {
+  margin: 80px auto;
+  max-width: 1100px;
+  display: flex;
+}
+
+.pribeh img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+
+.paticka {
+  background-color: #303339;
+  color: white;
+}
+
+.paticka p {
+  margin: 0;
+  text-align: center;
+  padding: 30px 0;
+}
